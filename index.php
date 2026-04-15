@@ -1,6 +1,11 @@
-<?php $page = 'home'; ?>
-<?php include 'includes/header.php'; ?>
-<?php include 'includes/nav.php'; ?>
+<?php
+$page  = 'home';
+$base  = '';
+$title = 'Baldonedo Nettoyage — Entreprise de nettoyage professionnel à Orly';
+$description = 'Baldonedo Nettoyage, entreprise de nettoyage professionnel à Orly. Bureaux, immeubles, maisons et appartements. Devis gratuit en 24h pour toute l\'Île-de-France.';
+include 'includes/header.php';
+include 'includes/nav.php';
+?>
 
 <!-- ════════════════════════════════════════
      HERO

@@ -44,6 +44,17 @@
         });
     }
 
+    /* ── Mobile dropdown toggle ────────────────────────────── */
+    document.querySelectorAll('.nav-item.has-dropdown .nav-link--drop').forEach(link => {
+        link.addEventListener('click', function (e) {
+            if (window.innerWidth < 768) {
+                e.preventDefault();
+                const item = this.closest('.nav-item');
+                item.classList.toggle('open');
+            }
+        });
+    });
+
     /* ── Contact form — AJAX submission ────────────────────── */
     const form      = document.getElementById('contact-form');
     const msgBox    = document.getElementById('form-message');
