@@ -132,20 +132,6 @@
                     </div>
                 </div>
 
-                <div class="contact-info-card">
-                    <h3><span aria-hidden="true">🕐</span> Horaires</h3>
-                    <div class="contact-detail">
-                        <div class="contact-detail-item">
-                            <div class="icon" aria-hidden="true">📅</div>
-                            <div>
-                                <strong>Lun — Ven :</strong> 7h00 – 19h00<br>
-                                <strong>Samedi :</strong> 8h00 – 14h00<br>
-                                <strong>Dimanche :</strong> Sur rendez-vous
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
                 <!-- Google Maps embed placeholder -->
                 <div class="map-embed" aria-label="Carte Google Maps — Baldonedo Nettoyage">
                     <iframe

@@ -255,7 +255,6 @@ h1, h2, h3, h4 {
     display: flex;
     align-items: center;
     overflow: hidden;
-    /* background: linear-gradient(135deg, #1a2e35 0%, #2a4a55 50%, #3d6e7a 100%); */
     background: linear-gradient(135deg, #0d4148 0%, #3d90a1 50%, #eaf4f4 100%);
 }
 
@@ -796,7 +795,7 @@ h1, h2, h3, h4 {
 
 /* ── Contact Page ─────────────────────────────────────────── */
 .page-contact .contact-hero {
-    background: linear-gradient(135deg, #1a2e35, #2a4a55);
+    background: linear-gradient(135deg, #0d4148, #3d90a1);
     padding-block: var(--space-2xl);
     text-align: center;
 }
