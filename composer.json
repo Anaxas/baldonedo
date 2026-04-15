@@ -1,0 +1,10 @@
+{
+    "name": "baldonedo/nettoyage",
+    "description": "Baldonedo Nettoyage website",
+    "require": {
+        "phpmailer/phpmailer": "^6.9"
+    },
+    "autoload": {
+        "psr-4": {}
+    }
+}
