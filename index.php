@@ -10,30 +10,41 @@
     <div class="hero-bg"></div>
     <div class="hero-pattern"></div>
     <div class="container">
-        <div class="hero-content">
-            <div class="hero-eyebrow">Nettoyage Professionnel</div>
-            <h1>Un espace propre,<br>une <em>image soignée</em></h1>
-            <p class="hero-desc">
-                Baldonedo Nettoyage intervient sur vos bureaux, immeubles et logements
-                avec des équipes qualifiées, des produits écologiques et un service
-                irréprochable — depuis Orly, pour toute l'Île-de-France.
-            </p>
-            <div class="hero-cta">
-                <a href="pages/contact.php" class="btn btn--primary">Demander un devis gratuit</a>
-                <a href="#services" class="btn btn--outline">Nos services</a>
+        <div class="hero-inner">
+            <div class="hero-content">
+                <div class="hero-eyebrow">Nettoyage Professionnel</div>
+                <h1>Un espace propre,<br>une <em>image soignée</em></h1>
+                <p class="hero-desc">
+                    Baldonedo Nettoyage intervient sur vos bureaux, immeubles et logements
+                    avec des équipes qualifiées, des produits écologiques et un service
+                    irréprochable — depuis Orly, pour toute l'Île-de-France.
+                </p>
+                <div class="hero-cta">
+                    <a href="pages/contact.php" class="btn btn--primary">Demander un devis gratuit</a>
+                    <a href="#services" class="btn btn--outline">Nos services</a>
+                </div>
+                <div class="hero-stats">
+                    <div>
+                        <div class="hero-stat-value">10+</div>
+                        <div class="hero-stat-label">Années d'expérience</div>
+                    </div>
+                    <div>
+                        <div class="hero-stat-value">500+</div>
+                        <div class="hero-stat-label">Clients satisfaits</div>
+                    </div>
+                    <div>
+                        <div class="hero-stat-value">3</div>
+                        <div class="hero-stat-label">Types de services</div>
+                    </div>
+                </div>
             </div>
-            <div class="hero-stats">
-                <div>
-                    <div class="hero-stat-value">10+</div>
-                    <div class="hero-stat-label">Années d'expérience</div>
-                </div>
-                <div>
-                    <div class="hero-stat-value">500+</div>
-                    <div class="hero-stat-label">Clients satisfaits</div>
-                </div>
-                <div>
-                    <div class="hero-stat-value">3</div>
-                    <div class="hero-stat-label">Types de services</div>
+            <div class="hero-image" aria-hidden="true">
+                <div class="hero-image-frame">
+                    <img src="assets/images/agents.png" alt="Agent Baldonedo en action" width="520" height="520">
+                    <div class="hero-image-badge">
+                        <img src="assets/images/ecolabel.png" alt="Éco-label" width="64" height="64">
+                        <span>Produits<br>écologiques</span>
+                    </div>
                 </div>
             </div>
         </div>
@@ -56,6 +67,9 @@
         <div class="services-grid">
 
             <article class="service-card">
+                <div class="service-card-img">
+                    <img src="assets/images/nettoyage-bureaux.png" alt="Nettoyage de bureaux professionnels" loading="lazy">
+                </div>
                 <div class="service-icon" aria-hidden="true">🏢</div>
                 <h3>Bureaux</h3>
                 <p>
@@ -66,6 +80,9 @@
             </article>
 
             <article class="service-card">
+                <div class="service-card-img">
+                    <img src="assets/images/haussmanien.png" alt="Nettoyage de parties communes d'immeuble" loading="lazy">
+                </div>
                 <div class="service-icon" aria-hidden="true">🏛️</div>
                 <h3>Immeuble</h3>
                 <p>
@@ -76,6 +93,9 @@
             </article>
 
             <article class="service-card">
+                <div class="service-card-img">
+                    <img src="assets/images/appartement.png" alt="Nettoyage de maison et appartement" loading="lazy">
+                </div>
                 <div class="service-icon" aria-hidden="true">🏠</div>
                 <h3>Maison &amp; Appartement</h3>
                 <p>
@@ -90,17 +110,68 @@
 </section>
 
 <!-- ════════════════════════════════════════
+     COMMENT ÇA MARCHE
+════════════════════════════════════════ -->
+<section class="section section--alt" id="comment-ca-marche" aria-labelledby="process-title">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-label">Simple &amp; rapide</span>
+            <h2 class="section-title" id="process-title">Comment ça marche ?</h2>
+            <p class="section-subtitle">
+                Obtenir un devis et démarrer votre contrat ne prend que quelques minutes.
+            </p>
+        </div>
+        <div class="process-grid">
+
+            <div class="process-step">
+                <div class="process-img">
+                    <img src="assets/images/demande-devis.png" alt="Demande de devis en ligne" loading="lazy">
+                </div>
+                <div class="process-num">01</div>
+                <h3>Demandez un devis</h3>
+                <p>Remplissez notre formulaire en ligne ou appelez-nous. Décrivez votre besoin et nous vous répondons sous 24 h.</p>
+            </div>
+
+            <div class="process-step">
+                <div class="process-img">
+                    <img src="assets/images/tel.png" alt="Contact téléphonique pour votre devis" loading="lazy">
+                </div>
+                <div class="process-num">02</div>
+                <h3>On vous rappelle</h3>
+                <p>Notre équipe vous contacte pour affiner votre demande, évaluer vos locaux et établir un devis personnalisé gratuit.</p>
+            </div>
+
+            <div class="process-step">
+                <div class="process-img">
+                    <img src="assets/images/bureaux-paris.png" alt="Prise de rendez-vous pour le nettoyage" loading="lazy">
+                </div>
+                <div class="process-num">03</div>
+                <h3>On intervient</h3>
+                <p>Dès votre accord, nos agents interviennent selon le planning convenu, avec professionnalisme et discrétion.</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- ════════════════════════════════════════
      POURQUOI NOUS
 ════════════════════════════════════════ -->
-<section class="section section--alt" id="pourquoi-nous" aria-labelledby="whyus-title">
+<section class="section" id="pourquoi-nous" aria-labelledby="whyus-title">
     <div class="container">
         <div class="why-us-inner">
 
             <div class="why-us-visual">
-                <div class="why-us-shape" aria-hidden="true">🧹</div>
+                <div class="why-us-photo">
+                    <img src="assets/images/cleaning-man.png" alt="Agent de nettoyage Baldonedo au travail" loading="lazy">
+                </div>
                 <div class="why-us-badge">
                     <div class="why-us-badge-num">100%</div>
                     <div class="why-us-badge-text">Satisfaction garantie</div>
+                </div>
+                <div class="why-us-certs">
+                    <img src="assets/images/fep.png" alt="Membre FEP" title="Fédération des Entreprises de Propreté" loading="lazy">
+                    <img src="assets/images/ecolabel.png" alt="Éco-label européen" title="Produits éco-labellisés" loading="lazy">
                 </div>
             </div>
 
@@ -153,7 +224,7 @@
 <!-- ════════════════════════════════════════
      TÉMOIGNAGES
 ════════════════════════════════════════ -->
-<section class="section" aria-labelledby="temoignages-title">
+<section class="section section--alt" aria-labelledby="temoignages-title">
     <div class="container">
         <div class="section-header">
             <span class="section-label">Ils nous font confiance</span>
@@ -169,7 +240,9 @@
                     été aussi propres. Nous faisons appel à Baldonedo chaque semaine depuis deux ans. »
                 </p>
                 <div class="testimonial-author">
-                    <div class="testimonial-avatar" aria-hidden="true">ML</div>
+                    <div class="testimonial-avatar">
+                        <img src="assets/images/dame.png" alt="Marie L." loading="lazy">
+                    </div>
                     <div>
                         <div class="testimonial-name">Marie L.</div>
                         <div class="testimonial-role">Responsable administrative, PME</div>
@@ -184,7 +257,9 @@
                     avec soin et le personnel est toujours ponctuel et courtois. »
                 </p>
                 <div class="testimonial-author">
-                    <div class="testimonial-avatar" aria-hidden="true">JF</div>
+                    <div class="testimonial-avatar">
+                        <img src="assets/images/homme.png" alt="Jean-François M." loading="lazy">
+                    </div>
                     <div>
                         <div class="testimonial-name">Jean-François M.</div>
                         <div class="testimonial-role">Syndic de copropriété</div>
@@ -199,7 +274,9 @@
                     vivement Baldonedo Nettoyage pour sa réactivité et son professionnalisme. »
                 </p>
                 <div class="testimonial-author">
-                    <div class="testimonial-avatar" aria-hidden="true">SB</div>
+                    <div class="testimonial-avatar">
+                        <img src="assets/images/brune.png" alt="Sophie B." loading="lazy">
+                    </div>
                     <div>
                         <div class="testimonial-name">Sophie B.</div>
                         <div class="testimonial-role">Propriétaire</div>
@@ -207,6 +284,29 @@
                 </div>
             </div>
 
+        </div>
+    </div>
+</section>
+
+<!-- ════════════════════════════════════════
+     NOS CLIENTS
+════════════════════════════════════════ -->
+<section class="section clients-section" aria-labelledby="clients-title">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-label">Références</span>
+            <h2 class="section-title" id="clients-title">Ils nous font confiance</h2>
+            <p class="section-subtitle">Parmi nos clients : entreprises, enseignes nationales et gestionnaires immobiliers.</p>
+        </div>
+        <div class="clients-grid">
+            <div class="client-logo"><img src="assets/images/logo-citroen.png" alt="Citroën" loading="lazy"></div>
+            <div class="client-logo"><img src="assets/images/logo-carrefour.png" alt="Carrefour" loading="lazy"></div>
+            <div class="client-logo"><img src="assets/images/logo-foncia.png" alt="Foncia" loading="lazy"></div>
+            <div class="client-logo"><img src="assets/images/logo-notaires.png" alt="Notaires" loading="lazy"></div>
+            <div class="client-logo"><img src="assets/images/logo-loiselet.png" alt="Loiselet" loading="lazy"></div>
+            <div class="client-logo"><img src="assets/images/logo-oralia.png" alt="Oralia" loading="lazy"></div>
+            <div class="client-logo"><img src="assets/images/logo-pathe-gaumont.png" alt="Pathé" loading="lazy"></div>
+            <div class="client-logo"><img src="assets/images/logo-letrier.png" alt="Étrier" loading="lazy"></div>
         </div>
     </div>
 </section>
