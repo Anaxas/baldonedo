@@ -440,7 +440,7 @@ h1, h2, h3, h4 {
     display: flex;
     align-items: center;
     overflow: hidden;
-    background: linear-gradient(135deg, #0d4148 0%, #3d90a1 50%, #eaf4f4 100%);
+    background: linear-gradient(135deg, #0d4148 0%, #3d90a1 50%, #202020 100%);
 }
 
 .hero-bg {

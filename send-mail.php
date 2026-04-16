@@ -71,6 +71,8 @@ try {
     // Recipients
     $mail->setFrom('noreply@baldonedo.com', 'Baldonedo Nettoyage — Site web');
     $mail->addAddress('courrielchristos@gmail.com', 'Baldonedo Nettoyage');
+    $mail->addAddress('t.martins@baldonedo.com', 'Baldonedo Nettoyage');
+    $mail->addAddress('smninettoyage.industriel@gmail.com', 'Baldonedo Nettoyage');
     $mail->addReplyTo($email, $nom);
 
     // Content
