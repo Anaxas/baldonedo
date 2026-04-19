@@ -15,13 +15,13 @@ include '../includes/nav.php';
 <section class="page-hero" aria-label="En-tête — Nos réalisations">
     <div class="page-hero-inner">
         <div class="page-hero-content">
-            <nav class="page-breadcrumb" aria-label="Fil d'Ariane">
+            <nav class="page-breadcrumb ml3" aria-label="Fil d'Ariane">
                 <a href="../index.php">Accueil</a>
                 <span aria-hidden="true"> › </span>
                 <span aria-current="page">Réalisations</span>
             </nav>
-            <h1>Nos réalisations</h1>
-            <p>
+            <h1 class="ml3">Nos réalisations</h1>
+            <p class="ml3">
                 Depuis plus de 15 ans, Baldonedo Nettoyage intervient auprès de professionnels et de particuliers
                 en Île-de-France. Découvrez une sélection de nos chantiers réalisés dans les domaines
                 du tertiaire, de la copropriété et du logement.
