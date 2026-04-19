@@ -1,6 +1,11 @@
-<?php $page = 'contact'; ?>
-<?php include '../includes/header.php'; ?>
-<?php include '../includes/nav.php'; ?>
+<?php
+$page  = 'contact';
+$base  = '../';
+$title = 'Contact — Demandez un devis gratuit — Baldonedo Nettoyage';
+$description = 'Contactez Baldonedo Nettoyage pour un devis gratuit en moins de 24h. Nettoyage professionnel de bureaux, immeubles et logements en Île-de-France.';
+include '../includes/header.php';
+include '../includes/nav.php';
+?>
 
 <main>
 

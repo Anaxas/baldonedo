@@ -1,21 +1,39 @@
-<?php $base = ($page === 'contact') ? '../' : ''; ?>
+<?php $base = $base ?? ''; ?>
 <footer class="site-footer">
     <div class="container footer-grid">
 
         <div class="footer-brand">
-            <a href="<?= $base ?>index.php" class="logo logo--light" aria-label="Baldonedo Nettoyage">
-                <span class="logo-icon">✦</span>
-                <span class="logo-text">Baldonedo <em>Nettoyage</em></span>
+            <a href="<?= $base ?>index.php" class="logo" aria-label="Baldonedo Nettoyage">
+                <img src="<?= $base ?>assets/images/logo-baldonedo.png" alt="Baldonedo Nettoyage" class="logo-img logo-img--footer">
             </a>
             <p class="footer-tagline">Propreté professionnelle, confiance durable.</p>
+            <div class="footer-certs">
+                <img src="<?= $base ?>assets/images/fep.png" alt="Membre FEP" title="Fédération des Entreprises de Propreté">
+                <img src="<?= $base ?>assets/images/ecolabel.png" alt="Éco-label européen" title="Produits éco-labellisés">
+            </div>
         </div>
 
         <div class="footer-services">
             <h3 class="footer-heading">Nos services</h3>
             <ul>
-                <li><a href="<?= $base ?>index.php#services">Bureaux</a></li>
-                <li><a href="<?= $base ?>index.php#services">Immeubles</a></li>
-                <li><a href="<?= $base ?>index.php#services">Maisons &amp; Appartements</a></li>
+                <li><a href="<?= $base ?>pages/services/bureaux.php">Nettoyage Bureaux</a></li>
+                <li><a href="<?= $base ?>pages/services/immeuble.php">Nettoyage Immeubles</a></li>
+                <li><a href="<?= $base ?>pages/services/maison-appartement.php">Maisons &amp; Appartements</a></li>
+                <li><a href="<?= $base ?>pages/realisations.php">Nos Réalisations</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-villes">
+            <h3 class="footer-heading">Zones desservies</h3>
+            <ul>
+                <li><a href="<?= $base ?>pages/villes/paris.php">Paris</a></li>
+                <li><a href="<?= $base ?>pages/villes/creteil.php">Créteil</a></li>
+                <li><a href="<?= $base ?>pages/villes/rungis.php">Rungis</a></li>
+                <li><a href="<?= $base ?>pages/villes/vitry-sur-seine.php">Vitry-sur-Seine</a></li>
+                <li><a href="<?= $base ?>pages/villes/ivry-sur-seine.php">Ivry-sur-Seine</a></li>
+                <li><a href="<?= $base ?>pages/villes/choisy-le-roi.php">Choisy-le-Roi</a></li>
+                <li><a href="<?= $base ?>pages/villes/villejuif.php">Villejuif</a></li>
+                <li><a href="<?= $base ?>pages/villes/thiais.php">Thiais</a></li>
             </ul>
         </div>
 
@@ -26,16 +44,6 @@
                 <p><a href="tel:+330148531061">+33 01 48 53 10 61</a></p>
                 <p><a href="mailto:contact@baldonedo.com">contact@baldonedo.com</a></p>
             </address>
-        </div>
-
-        <div class="footer-nav">
-            <h3 class="footer-heading">Navigation</h3>
-            <ul>
-                <li><a href="<?= $base ?>index.php">Accueil</a></li>
-                <li><a href="<?= $base ?>index.php#services">Services</a></li>
-                <li><a href="<?= $base ?>index.php#pourquoi-nous">Pourquoi nous</a></li>
-                <li><a href="<?= $base ?>pages/contact.php">Contact</a></li>
-            </ul>
         </div>
 
     </div>
