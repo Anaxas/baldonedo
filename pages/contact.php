@@ -141,7 +141,7 @@ include '../includes/nav.php';
                 <div class="map-embed" aria-label="Carte Google Maps — Baldonedo Nettoyage">
                     <iframe
                         title="Localisation Baldonedo Nettoyage"
-                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2628.143!2d2.3896!3d48.7450!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e671c7b4f0b8e3%3A0x1!2s61+Av.+de+la+Victoire%2C+94310+Orly%2C+France!5e0!3m2!1sfr!2sfr!4v1700000000000"
+                        src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d70759.97831073696!2d2.337370294458458!3d48.76979627811877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sbaldonedo!5e0!3m2!1sfr!2sfr!4v1776691696321!5m2!1sfr!2sfr"
                         allowfullscreen
                         loading="lazy"
                         referrerpolicy="no-referrer-when-downgrade"
