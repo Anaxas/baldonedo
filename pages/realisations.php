@@ -326,28 +326,6 @@ include '../includes/nav.php';
                 </div>
             </article>
 
-            <!-- Carte 14 -->
-            <article class="realisation-card">
-                <div class="video-wrapper">
-                    <video autoplay muted playsinline>
-                        <source src="../assets/videos/chantier.mp4" type="video/mp4">
-                        Votre navigateur ne supporte pas la lecture de vidéos.
-                    </video>
-                    <div class="video-controls">
-                        <button class="video-btn video-btn--mute" aria-label="Activer le son"></button>
-                        <button class="video-btn video-btn--replay" aria-label="Rejouer">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true">
-                                <path d="M12 5V1L7 6l5 5V7c3.31 0 6 2.69 6 6s-2.69 6-6 6-6-2.69-6-6H4c0 4.42 3.58 8 8 8s8-3.58 8-8-3.58-8-8-8z"/>
-                            </svg>
-                        </button>
-                    </div>
-                </div>
-                <div class="realisation-card-body">
-                    <h3>Nettoyage carte 14 XXX — Lieu XXX</h3>
-                    <p>Nettoyage XXX.</p>
-                </div>
-            </article>
-
             <!-- Carte 15 -->
             <article class="realisation-card">
                 <div class="video-wrapper">
@@ -498,6 +476,28 @@ include '../includes/nav.php';
                 </div>
                 <div class="realisation-card-body">
                     <h3>Nettoyage carte 21 XXX — Lieu XXX</h3>
+                    <p>Nettoyage XXX.</p>
+                </div>
+            </article>
+
+            <!-- Carte 22 -->
+            <article class="realisation-card">
+                <div class="video-wrapper">
+                    <video autoplay muted playsinline>
+                        <source src="../assets/videos/chantier.mp4" type="video/mp4">
+                        Votre navigateur ne supporte pas la lecture de vidéos.
+                    </video>
+                    <div class="video-controls">
+                        <button class="video-btn video-btn--mute" aria-label="Activer le son"></button>
+                        <button class="video-btn video-btn--replay" aria-label="Rejouer">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true">
+                                <path d="M12 5V1L7 6l5 5V7c3.31 0 6 2.69 6 6s-2.69 6-6 6-6-2.69-6-6H4c0 4.42 3.58 8 8 8s8-3.58 8-8-3.58-8-8-8z"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="realisation-card-body">
+                    <h3>Nettoyage carte 22 XXX — Lieu XXX</h3>
                     <p>Nettoyage XXX.</p>
                 </div>
             </article>
