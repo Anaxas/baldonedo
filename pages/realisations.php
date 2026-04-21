@@ -260,6 +260,18 @@ include '../includes/nav.php';
                 </div>
             </article>
 
+            <!-- Carte 12 -->
+            <!-- <article class="realisation-card">
+                <video width="320" height="240" autoPlay muted>
+                    <source src="../assets/videos/sols.mp4" type="video/mp4">
+                    Votre navigateur ne supporte pas la lecture de vidéos.
+                </video>
+                <div class="realisation-card-body">
+                    <h3>Nettoyage XXX — LieuXXX</h3>
+                    <p>Nettoyage XXX.</p>
+                </div>
+            </article> -->
+
         </div>
     </div>
 </section>
@@ -433,7 +445,7 @@ include '../includes/nav.php';
 
             <div class="client-logo">
                 <img
-                    src="../assets/images/oralia.png"
+                    src="../assets/images/logo-oralia.png"
                     alt="Oralia"
                     width="160"
                     height="80"
@@ -443,7 +455,7 @@ include '../includes/nav.php';
 
             <div class="client-logo">
                 <img
-                    src="../assets/images/pathe.png"
+                    src="../assets/images/logo-pathe-gaumont.png"
                     alt="Pathé"
                     width="160"
                     height="80"
@@ -453,7 +465,7 @@ include '../includes/nav.php';
 
             <div class="client-logo">
                 <img
-                    src="../assets/images/etrier.png"
+                    src="../assets/images/logo-letrier.png"
                     alt="L'Étrier"
                     width="160"
                     height="80"
