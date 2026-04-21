@@ -261,16 +261,246 @@ include '../includes/nav.php';
             </article>
 
             <!-- Carte 12 -->
-            <!-- <article class="realisation-card">
-                <video width="320" height="240" autoPlay muted>
-                    <source src="../assets/videos/sols.mp4" type="video/mp4">
-                    Votre navigateur ne supporte pas la lecture de vidéos.
-                </video>
+            <article class="realisation-card">
+                <div class="video-wrapper">
+                    <video autoplay muted playsinline>
+                        <source src="../assets/videos/sols.mp4" type="video/mp4">
+                        Votre navigateur ne supporte pas la lecture de vidéos.
+                    </video>
+                    <div class="video-controls">
+                        <button class="video-btn video-btn--mute" aria-label="Activer le son"></button>
+                        <button class="video-btn video-btn--replay" aria-label="Rejouer">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true">
+                                <path d="M12 5V1L7 6l5 5V7c3.31 0 6 2.69 6 6s-2.69 6-6 6-6-2.69-6-6H4c0 4.42 3.58 8 8 8s8-3.58 8-8-3.58-8-8-8z"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
                 <div class="realisation-card-body">
-                    <h3>Nettoyage XXX — LieuXXX</h3>
+                    <h3>Nettoyage carte 12 XXX — Lieu XXX</h3>
                     <p>Nettoyage XXX.</p>
                 </div>
-            </article> -->
+            </article>
+
+            <!-- Carte 13 -->
+            <article class="realisation-card">
+                <div class="video-wrapper">
+                    <video autoplay muted playsinline>
+                        <source src="../assets/videos/balais.mp4" type="video/mp4">
+                        Votre navigateur ne supporte pas la lecture de vidéos.
+                    </video>
+                    <div class="video-controls">
+                        <button class="video-btn video-btn--mute" aria-label="Activer le son"></button>
+                        <button class="video-btn video-btn--replay" aria-label="Rejouer">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true">
+                                <path d="M12 5V1L7 6l5 5V7c3.31 0 6 2.69 6 6s-2.69 6-6 6-6-2.69-6-6H4c0 4.42 3.58 8 8 8s8-3.58 8-8-3.58-8-8-8z"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="realisation-card-body">
+                    <h3>Nettoyage carte 13 XXX — Lieu XXX</h3>
+                    <p>Nettoyage XXX.</p>
+                </div>
+            </article>
+
+            <!-- Carte 14 -->
+            <article class="realisation-card">
+                <div class="video-wrapper">
+                    <video autoplay muted playsinline>
+                        <source src="../assets/videos/revue.mp4" type="video/mp4">
+                        Votre navigateur ne supporte pas la lecture de vidéos.
+                    </video>
+                    <div class="video-controls">
+                        <button class="video-btn video-btn--mute" aria-label="Activer le son"></button>
+                        <button class="video-btn video-btn--replay" aria-label="Rejouer">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true">
+                                <path d="M12 5V1L7 6l5 5V7c3.31 0 6 2.69 6 6s-2.69 6-6 6-6-2.69-6-6H4c0 4.42 3.58 8 8 8s8-3.58 8-8-3.58-8-8-8z"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="realisation-card-body">
+                    <h3>Nettoyage carte 14 XXX — Lieu XXX</h3>
+                    <p>Nettoyage XXX.</p>
+                </div>
+            </article>
+
+            <!-- Carte 14 -->
+            <article class="realisation-card">
+                <div class="video-wrapper">
+                    <video autoplay muted playsinline>
+                        <source src="../assets/videos/chantier.mp4" type="video/mp4">
+                        Votre navigateur ne supporte pas la lecture de vidéos.
+                    </video>
+                    <div class="video-controls">
+                        <button class="video-btn video-btn--mute" aria-label="Activer le son"></button>
+                        <button class="video-btn video-btn--replay" aria-label="Rejouer">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true">
+                                <path d="M12 5V1L7 6l5 5V7c3.31 0 6 2.69 6 6s-2.69 6-6 6-6-2.69-6-6H4c0 4.42 3.58 8 8 8s8-3.58 8-8-3.58-8-8-8z"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="realisation-card-body">
+                    <h3>Nettoyage carte 14 XXX — Lieu XXX</h3>
+                    <p>Nettoyage XXX.</p>
+                </div>
+            </article>
+
+            <!-- Carte 15 -->
+            <article class="realisation-card">
+                <div class="video-wrapper">
+                    <video autoplay muted playsinline>
+                        <source src="../assets/videos/supermarche.mp4" type="video/mp4">
+                        Votre navigateur ne supporte pas la lecture de vidéos.
+                    </video>
+                    <div class="video-controls">
+                        <button class="video-btn video-btn--mute" aria-label="Activer le son"></button>
+                        <button class="video-btn video-btn--replay" aria-label="Rejouer">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true">
+                                <path d="M12 5V1L7 6l5 5V7c3.31 0 6 2.69 6 6s-2.69 6-6 6-6-2.69-6-6H4c0 4.42 3.58 8 8 8s8-3.58 8-8-3.58-8-8-8z"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="realisation-card-body">
+                    <h3>Nettoyage carte 15 XXX — Lieu XXX</h3>
+                    <p>Nettoyage XXX.</p>
+                </div>
+            </article>
+
+            <!-- Carte 16 -->
+            <article class="realisation-card">
+                <div class="video-wrapper">
+                    <video autoplay muted playsinline>
+                        <source src="../assets/videos/marbre.mp4" type="video/mp4">
+                        Votre navigateur ne supporte pas la lecture de vidéos.
+                    </video>
+                    <div class="video-controls">
+                        <button class="video-btn video-btn--mute" aria-label="Activer le son"></button>
+                        <button class="video-btn video-btn--replay" aria-label="Rejouer">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true">
+                                <path d="M12 5V1L7 6l5 5V7c3.31 0 6 2.69 6 6s-2.69 6-6 6-6-2.69-6-6H4c0 4.42 3.58 8 8 8s8-3.58 8-8-3.58-8-8-8z"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="realisation-card-body">
+                    <h3>Nettoyage carte 16 XXX — Lieu XXX</h3>
+                    <p>Nettoyage XXX.</p>
+                </div>
+            </article>
+
+            <!-- Carte 17 -->
+            <article class="realisation-card">
+                <div class="video-wrapper">
+                    <video autoplay muted playsinline>
+                        <source src="../assets/videos/hypermarche.mp4" type="video/mp4">
+                        Votre navigateur ne supporte pas la lecture de vidéos.
+                    </video>
+                    <div class="video-controls">
+                        <button class="video-btn video-btn--mute" aria-label="Activer le son"></button>
+                        <button class="video-btn video-btn--replay" aria-label="Rejouer">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true">
+                                <path d="M12 5V1L7 6l5 5V7c3.31 0 6 2.69 6 6s-2.69 6-6 6-6-2.69-6-6H4c0 4.42 3.58 8 8 8s8-3.58 8-8-3.58-8-8-8z"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="realisation-card-body">
+                    <h3>Nettoyage carte 17 XXX — Lieu XXX</h3>
+                    <p>Nettoyage XXX.</p>
+                </div>
+            </article>
+
+            <!-- Carte 18 -->
+            <article class="realisation-card">
+                <div class="video-wrapper">
+                    <video autoplay muted playsinline>
+                        <source src="../assets/videos/voiture-balai.mp4" type="video/mp4">
+                        Votre navigateur ne supporte pas la lecture de vidéos.
+                    </video>
+                    <div class="video-controls">
+                        <button class="video-btn video-btn--mute" aria-label="Activer le son"></button>
+                        <button class="video-btn video-btn--replay" aria-label="Rejouer">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true">
+                                <path d="M12 5V1L7 6l5 5V7c3.31 0 6 2.69 6 6s-2.69 6-6 6-6-2.69-6-6H4c0 4.42 3.58 8 8 8s8-3.58 8-8-3.58-8-8-8z"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="realisation-card-body">
+                    <h3>Nettoyage carte 18 XXX — Lieu XXX</h3>
+                    <p>Nettoyage XXX.</p>
+                </div>
+            </article>
+
+            <!-- Carte 19 -->
+            <article class="realisation-card">
+                <div class="video-wrapper">
+                    <video autoplay muted playsinline>
+                        <source src="../assets/videos/vitre.mp4" type="video/mp4">
+                        Votre navigateur ne supporte pas la lecture de vidéos.
+                    </video>
+                    <div class="video-controls">
+                        <button class="video-btn video-btn--mute" aria-label="Activer le son"></button>
+                        <button class="video-btn video-btn--replay" aria-label="Rejouer">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true">
+                                <path d="M12 5V1L7 6l5 5V7c3.31 0 6 2.69 6 6s-2.69 6-6 6-6-2.69-6-6H4c0 4.42 3.58 8 8 8s8-3.58 8-8-3.58-8-8-8z"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="realisation-card-body">
+                    <h3>Nettoyage carte 19 XXX — Lieu XXX</h3>
+                    <p>Nettoyage XXX.</p>
+                </div>
+            </article>
+
+            <!-- Carte 20 -->
+            <article class="realisation-card">
+                <div class="video-wrapper">
+                    <video autoplay muted playsinline>
+                        <source src="../assets/videos/grue.mp4" type="video/mp4">
+                        Votre navigateur ne supporte pas la lecture de vidéos.
+                    </video>
+                    <div class="video-controls">
+                        <button class="video-btn video-btn--mute" aria-label="Activer le son"></button>
+                        <button class="video-btn video-btn--replay" aria-label="Rejouer">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true">
+                                <path d="M12 5V1L7 6l5 5V7c3.31 0 6 2.69 6 6s-2.69 6-6 6-6-2.69-6-6H4c0 4.42 3.58 8 8 8s8-3.58 8-8-3.58-8-8-8z"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="realisation-card-body">
+                    <h3>Nettoyage carte 20 XXX — Lieu XXX</h3>
+                    <p>Nettoyage XXX.</p>
+                </div>
+            </article>
+
+            <!-- Carte 21 -->
+            <article class="realisation-card">
+                <div class="video-wrapper">
+                    <video autoplay muted playsinline>
+                        <source src="../assets/videos/jet.mp4" type="video/mp4">
+                        Votre navigateur ne supporte pas la lecture de vidéos.
+                    </video>
+                    <div class="video-controls">
+                        <button class="video-btn video-btn--mute" aria-label="Activer le son"></button>
+                        <button class="video-btn video-btn--replay" aria-label="Rejouer">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true">
+                                <path d="M12 5V1L7 6l5 5V7c3.31 0 6 2.69 6 6s-2.69 6-6 6-6-2.69-6-6H4c0 4.42 3.58 8 8 8s8-3.58 8-8-3.58-8-8-8z"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="realisation-card-body">
+                    <h3>Nettoyage carte 21 XXX — Lieu XXX</h3>
+                    <p>Nettoyage XXX.</p>
+                </div>
+            </article>
 
         </div>
     </div>
