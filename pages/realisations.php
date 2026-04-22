@@ -277,8 +277,8 @@ include '../includes/nav.php';
                     </div>
                 </div>
                 <div class="realisation-card-body">
-                    <h3>Nettoyage carte 12 XXX — Lieu XXX</h3>
-                    <p>Nettoyage XXX.</p>
+                    <h3>Carte 12 — Décapage de parquet — Lieu XXX</h3>
+                    <p>Remise en état de sol et décapage du parquet dans un salon de coiffure.</p>
                 </div>
             </article>
 
@@ -299,8 +299,8 @@ include '../includes/nav.php';
                     </div>
                 </div>
                 <div class="realisation-card-body">
-                    <h3>Nettoyage carte 13 XXX — Lieu XXX</h3>
-                    <p>Nettoyage XXX.</p>
+                    <h3>Carte 13 — Nettoyage cabinet de notaire — Lieu XXX</h3>
+                    <p>Nettoyage d'un cabinet de notaire.</p>
                 </div>
             </article>
 
@@ -321,7 +321,7 @@ include '../includes/nav.php';
                     </div>
                 </div>
                 <div class="realisation-card-body">
-                    <h3>Nettoyage carte 14 XXX — Lieu XXX</h3>
+                    <h3>Carte 14 XXX — Lieu XXX</h3>
                     <p>Nettoyage XXX.</p>
                 </div>
             </article>
@@ -343,8 +343,8 @@ include '../includes/nav.php';
                     </div>
                 </div>
                 <div class="realisation-card-body">
-                    <h3>Nettoyage carte 15 XXX — Lieu XXX</h3>
-                    <p>Nettoyage XXX.</p>
+                    <h3>Carte 15 — Nettoyage des allées — Lieu XXX</h3>
+                    <p>Nettoyage des allées de magasin.</p>
                 </div>
             </article>
 
@@ -365,7 +365,7 @@ include '../includes/nav.php';
                     </div>
                 </div>
                 <div class="realisation-card-body">
-                    <h3>Nettoyage carte 16 XXX — Lieu XXX</h3>
+                    <h3>Carte 16 XXX — Lieu XXX</h3>
                     <p>Nettoyage XXX.</p>
                 </div>
             </article>
@@ -387,7 +387,7 @@ include '../includes/nav.php';
                     </div>
                 </div>
                 <div class="realisation-card-body">
-                    <h3>Nettoyage carte 17 XXX — Lieu XXX</h3>
+                    <h3>Carte 17 XXX — Lieu XXX</h3>
                     <p>Nettoyage XXX.</p>
                 </div>
             </article>
@@ -409,7 +409,7 @@ include '../includes/nav.php';
                     </div>
                 </div>
                 <div class="realisation-card-body">
-                    <h3>Nettoyage carte 18 XXX — Lieu XXX</h3>
+                    <h3>Carte 18 XXX — Lieu XXX</h3>
                     <p>Nettoyage XXX.</p>
                 </div>
             </article>
@@ -431,8 +431,8 @@ include '../includes/nav.php';
                     </div>
                 </div>
                 <div class="realisation-card-body">
-                    <h3>Nettoyage carte 19 XXX — Lieu XXX</h3>
-                    <p>Nettoyage XXX.</p>
+                    <h3>Carte 19 — Nettoyage de vitrerie — Lieu XXX</h3>
+                    <p>Nettoyage de vitrerie de bureau en hauteur.</p>
                 </div>
             </article>
 
@@ -453,8 +453,8 @@ include '../includes/nav.php';
                     </div>
                 </div>
                 <div class="realisation-card-body">
-                    <h3>Nettoyage carte 20 XXX — Lieu XXX</h3>
-                    <p>Nettoyage XXX.</p>
+                    <h3>Carte 20 — Nettoyage véranda — Lieu XXX</h3>
+                    <p>Nettoyage d'une véranda au-dessus d'une brasserie avec une nacelle, des caniveaux gouttières et passage au Karcher.</p>
                 </div>
             </article>
 
@@ -475,13 +475,13 @@ include '../includes/nav.php';
                     </div>
                 </div>
                 <div class="realisation-card-body">
-                    <h3>Nettoyage carte 21 XXX — Lieu XXX</h3>
-                    <p>Nettoyage XXX.</p>
+                    <h3>Carte 21 — Nettoyage courette — Lieu XXX</h3>
+                    <p>Nettoyage d'une courette avec Karcher haute pression.</p>
                 </div>
             </article>
 
             <!-- Carte 22 -->
-            <article class="realisation-card">
+            <!-- <article class="realisation-card">
                 <div class="video-wrapper">
                     <video autoplay muted playsinline>
                         <source src="../assets/videos/chantier.mp4" type="video/mp4">
@@ -497,10 +497,10 @@ include '../includes/nav.php';
                     </div>
                 </div>
                 <div class="realisation-card-body">
-                    <h3>Nettoyage carte 22 XXX — Lieu XXX</h3>
-                    <p>Nettoyage XXX.</p>
+                    <h3>Carte 22 Chantier électricité — Lieu XXX</h3>
+                    <p>Chantier électricité.</p>
                 </div>
-            </article>
+            </article> -->
 
         </div>
     </div>
