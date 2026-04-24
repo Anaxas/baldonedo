@@ -277,30 +277,8 @@ include '../includes/nav.php';
                     </div>
                 </div>
                 <div class="realisation-card-body">
-                    <h3>Carte 12 — Décapage de parquet — Lieu XXX</h3>
+                    <h3>Décapage de parquet — Paris 1er</h3>
                     <p>Remise en état de sol et décapage du parquet dans un salon de coiffure.</p>
-                </div>
-            </article>
-
-            <!-- Carte 13 -->
-            <article class="realisation-card">
-                <div class="video-wrapper">
-                    <video autoplay muted playsinline>
-                        <source src="../assets/videos/balais.mp4" type="video/mp4">
-                        Votre navigateur ne supporte pas la lecture de vidéos.
-                    </video>
-                    <div class="video-controls">
-                        <button class="video-btn video-btn--mute" aria-label="Activer le son"></button>
-                        <button class="video-btn video-btn--replay" aria-label="Rejouer">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true">
-                                <path d="M12 5V1L7 6l5 5V7c3.31 0 6 2.69 6 6s-2.69 6-6 6-6-2.69-6-6H4c0 4.42 3.58 8 8 8s8-3.58 8-8-3.58-8-8-8z"/>
-                            </svg>
-                        </button>
-                    </div>
-                </div>
-                <div class="realisation-card-body">
-                    <h3>Carte 13 — Nettoyage cabinet de notaire — Lieu XXX</h3>
-                    <p>Nettoyage d'un cabinet de notaire.</p>
                 </div>
             </article>
 
@@ -321,8 +299,30 @@ include '../includes/nav.php';
                     </div>
                 </div>
                 <div class="realisation-card-body">
-                    <h3>Carte 14 XXX — Lieu XXX</h3>
-                    <p>Nettoyage XXX.</p>
+                    <h3>Salon de coiffure après nettoyage — Paris 1er</h3>
+                    <p>Remise en état après travaux.</p>
+                </div>
+            </article>
+
+            <!-- Carte 13 -->
+            <article class="realisation-card">
+                <div class="video-wrapper">
+                    <video autoplay muted playsinline>
+                        <source src="../assets/videos/balais.mp4" type="video/mp4">
+                        Votre navigateur ne supporte pas la lecture de vidéos.
+                    </video>
+                    <div class="video-controls">
+                        <button class="video-btn video-btn--mute" aria-label="Activer le son"></button>
+                        <button class="video-btn video-btn--replay" aria-label="Rejouer">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true">
+                                <path d="M12 5V1L7 6l5 5V7c3.31 0 6 2.69 6 6s-2.69 6-6 6-6-2.69-6-6H4c0 4.42 3.58 8 8 8s8-3.58 8-8-3.58-8-8-8z"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="realisation-card-body">
+                    <h3>Nettoyage cabinet de notaire — Paris 14</h3>
+                    <p>Entretien régulier d'un cabinet de notaire.</p>
                 </div>
             </article>
 
@@ -343,7 +343,7 @@ include '../includes/nav.php';
                     </div>
                 </div>
                 <div class="realisation-card-body">
-                    <h3>Carte 15 — Nettoyage des allées — Lieu XXX</h3>
+                    <h3>Nettoyage des allées — Choisy-le-Roi</h3>
                     <p>Nettoyage des allées de magasin.</p>
                 </div>
             </article>
@@ -365,8 +365,8 @@ include '../includes/nav.php';
                     </div>
                 </div>
                 <div class="realisation-card-body">
-                    <h3>Carte 16 XXX — Lieu XXX</h3>
-                    <p>Nettoyage XXX.</p>
+                    <h3>Mise en brillance du marbre — Paris 2ème</h3>
+                    <p>Mise en brillance du marbre d'une brasserie près de l'Opéra.</p>
                 </div>
             </article>
 
@@ -387,8 +387,8 @@ include '../includes/nav.php';
                     </div>
                 </div>
                 <div class="realisation-card-body">
-                    <h3>Carte 17 XXX — Lieu XXX</h3>
-                    <p>Nettoyage XXX.</p>
+                    <h3>Nettoyage à l'autolaveuse — Choisy-le-Roi</h3>
+                    <p>Nettoyage à l'autolaveuse des allées d'un supermarché.</p>
                 </div>
             </article>
 
@@ -409,8 +409,8 @@ include '../includes/nav.php';
                     </div>
                 </div>
                 <div class="realisation-card-body">
-                    <h3>Carte 18 XXX — Lieu XXX</h3>
-                    <p>Nettoyage XXX.</p>
+                    <h3>Entretien d'école — Orly</h3>
+                    <p>Nettoyage à l'autolaveuse autoportée d'une école.</p>
                 </div>
             </article>
 
@@ -431,7 +431,7 @@ include '../includes/nav.php';
                     </div>
                 </div>
                 <div class="realisation-card-body">
-                    <h3>Carte 19 — Nettoyage de vitrerie — Lieu XXX</h3>
+                    <h3>Nettoyage de vitrerie — Paris 15</h3>
                     <p>Nettoyage de vitrerie de bureau en hauteur.</p>
                 </div>
             </article>
@@ -453,8 +453,8 @@ include '../includes/nav.php';
                     </div>
                 </div>
                 <div class="realisation-card-body">
-                    <h3>Carte 20 — Nettoyage véranda — Lieu XXX</h3>
-                    <p>Nettoyage d'une véranda au-dessus d'une brasserie avec une nacelle, des caniveaux gouttières et passage au Karcher.</p>
+                    <h3>Nettoyage véranda — Paris 1er</h3>
+                    <p>Nettoyage d'une marquise au-dessus d'une brasserie avec une nacelle. Passage au Karcher.</p>
                 </div>
             </article>
 
@@ -475,7 +475,7 @@ include '../includes/nav.php';
                     </div>
                 </div>
                 <div class="realisation-card-body">
-                    <h3>Carte 21 — Nettoyage courette — Lieu XXX</h3>
+                    <h3>Nettoyage courette — Paris 10</h3>
                     <p>Nettoyage d'une courette avec Karcher haute pression.</p>
                 </div>
             </article>
