@@ -202,6 +202,16 @@
             });
         }
 
+        const fullscreenBtn = wrapper.querySelector('.video-btn--fullscreen');
+        if (fullscreenBtn) {
+            fullscreenBtn.addEventListener('click', () => {
+                const src = video.querySelector('source')
+                    ? video.querySelector('source').src
+                    : video.src;
+                openVideoLightbox(src);
+            });
+        }
+
         // Show replay button prominently when video ends
         video.addEventListener('ended', () => {
             if (replayBtn) {
@@ -218,6 +228,35 @@
         });
 
         updateMuteIcon(); // set correct icon on load
+    });
+
+    /* ── Video lightbox ─────────────────────────────────────── */
+    const lightbox       = document.getElementById('video-lightbox');
+    const lightboxPlayer = lightbox && lightbox.querySelector('.video-lightbox-player');
+    const lightboxClose  = lightbox && lightbox.querySelector('.video-lightbox-close');
+    const lightboxBack   = lightbox && lightbox.querySelector('.video-lightbox-backdrop');
+
+    function openVideoLightbox(src) {
+        if (!lightbox || !lightboxPlayer) return;
+        lightboxPlayer.src = src;
+        lightboxPlayer.currentTime = 0;
+        lightbox.hidden = false;
+        lightboxPlayer.play();
+        document.body.style.overflow = 'hidden';
+    }
+
+    function closeVideoLightbox() {
+        if (!lightbox || !lightboxPlayer) return;
+        lightboxPlayer.pause();
+        lightboxPlayer.src = '';
+        lightbox.hidden = true;
+        document.body.style.overflow = '';
+    }
+
+    if (lightboxClose) lightboxClose.addEventListener('click', closeVideoLightbox);
+    if (lightboxBack)  lightboxBack.addEventListener('click', closeVideoLightbox);
+    document.addEventListener('keydown', e => {
+        if (e.key === 'Escape' && lightbox && !lightbox.hidden) closeVideoLightbox();
     });
 
 })();
