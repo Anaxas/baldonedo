@@ -148,7 +148,7 @@ include 'includes/nav.php';
 
             <div class="process-step">
                 <div class="process-img">
-                    <img src="assets/images/camionnette.png" alt="Prise de rendez-vous pour le nettoyage" loading="lazy">
+                    <img src="assets/images/208-baldonedo.png" alt="Prise de rendez-vous pour le nettoyage" loading="lazy">
                 </div>
                 <div class="process-num">03</div>
                 <h3>On intervient</h3>
