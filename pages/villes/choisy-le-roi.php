@@ -62,7 +62,7 @@ include '../../includes/nav.php';
 
             <article class="service-card">
                 <div class="service-card-img">
-                    <img src="<?= $base ?>assets/images/nettoyage-bureaux.png"
+                    <img src="<?= $base ?>assets/images/agent.png"
                          alt="Nettoyage de bureaux à Choisy-le-Roi" loading="lazy">
                 </div>
                 <div class="service-icon" aria-hidden="true">🏢</div>
