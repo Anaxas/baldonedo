@@ -115,151 +115,6 @@ include '../includes/nav.php';
                 </div>
             </article>
 
-        </div>
-    </div>
-</section>
-
-<!-- ════════════════════════════════════════
-     RÉALISATIONS — IMMEUBLES
-════════════════════════════════════════ -->
-<section class="section section--alt" aria-labelledby="titre-immeubles">
-    <div class="container">
-        <div class="section-header">
-            <span class="section-label">Copropriété</span>
-            <h2 class="section-title" id="titre-immeubles">Immeubles & parties communes</h2>
-            <p class="section-subtitle">
-                Entretien des halls, cages d'escalier, couloirs, sous-sols et parkings pour les syndics
-                et gestionnaires de copropriétés en Île-de-France.
-            </p>
-        </div>
-
-        <div class="realisations-grid">
-
-            <!-- Carte 5 -->
-            <article class="realisation-card">
-                <img
-                    src="../assets/images/entree-immeuble.png"
-                    alt="Hall d'entrée d'immeuble nettoyé — Ivry-sur-Seine"
-                    width="600"
-                    height="400"
-                    loading="lazy"
-                >
-                <div class="realisation-card-body">
-                    <h3>Copropriété — Ivry-sur-Seine</h3>
-                    <p>Nettoyage bihebdomadaire des parties communes d'un immeuble de 48 lots : hall d'entrée, 6 paliers, cage d'escalier et local à vélos.</p>
-                </div>
-            </article>
-
-            <!-- Carte 6 -->
-            <article class="realisation-card">
-                <img
-                    src="../assets/images/parking-autolaveuse.png"
-                    alt="Nettoyage de parking à l'autolaveuse — Rungis"
-                    width="600"
-                    height="400"
-                    loading="lazy"
-                >
-                <div class="realisation-card-body">
-                    <h3>Parking souterrain — Rungis</h3>
-                    <p>Lavage mensuel au karcher et à l'autolaveuse de 3 500 m² de dalle parking sur deux niveaux, incluant le traitement des taches d'huile et la signalisation au sol.</p>
-                </div>
-            </article>
-
-            <!-- Carte 7 -->
-            <article class="realisation-card">
-                <img
-                    src="../assets/images/haussmanien.png"
-                    alt="Immeuble haussmannien entretenu — Paris 15e"
-                    width="600"
-                    height="400"
-                    loading="lazy"
-                >
-                <div class="realisation-card-body">
-                    <h3>Résidence haussmannienne — Paris 15e</h3>
-                    <p>Entretien hebdomadaire des parties communes d'une résidence de 72 appartements : nettoyage des sols en marbre, des vitres de la verrière et des boîtes aux lettres.</p>
-                </div>
-            </article>
-
-            <!-- Carte 8 -->
-            <article class="realisation-card">
-                <img
-                    src="../assets/images/parking.png"
-                    alt="Parking extérieur nettoyé — Orly"
-                    width="600"
-                    height="400"
-                    loading="lazy"
-                >
-                <div class="realisation-card-body">
-                    <h3>Parking extérieur — Orly</h3>
-                    <p>Nettoyage trimestriel et démoussage d'un parking extérieur de 200 places, avec traitement herbicide des joints et remise en état de la peinture de sol.</p>
-                </div>
-            </article>
-
-        </div>
-    </div>
-</section>
-
-<!-- ════════════════════════════════════════
-     RÉALISATIONS — LOGEMENTS
-════════════════════════════════════════ -->
-<section class="section" aria-labelledby="titre-logements">
-    <div class="container">
-        <div class="section-header">
-            <span class="section-label">Résidentiel</span>
-            <h2 class="section-title" id="titre-logements">Maisons & appartements</h2>
-            <p class="section-subtitle">
-                Nettoyage de fin de chantier, remise en état entre deux locataires ou grand nettoyage
-                ponctuel pour les particuliers et les agences immobilières.
-            </p>
-        </div>
-
-        <div class="realisations-grid">
-
-            <!-- Carte 9 -->
-            <article class="realisation-card">
-                <img
-                    src="../assets/images/appartement.png"
-                    alt="Appartement remis en état entre locataires — Vitry-sur-Seine"
-                    width="600"
-                    height="400"
-                    loading="lazy"
-                >
-                <div class="realisation-card-body">
-                    <h3>État des lieux sortant — Vitry-sur-Seine</h3>
-                    <p>Remise en état complète d'un appartement T4 de 85 m² entre deux locataires : nettoyage four, hotte, sanitaires, joints de carrelage et shampoing des moquettes.</p>
-                </div>
-            </article>
-
-            <!-- Carte 10 -->
-            <article class="realisation-card">
-                <img
-                    src="../assets/images/piece.png"
-                    alt="Pièce à vivre après nettoyage professionnel — Choisy-le-Roi"
-                    width="600"
-                    height="400"
-                    loading="lazy"
-                >
-                <div class="realisation-card-body">
-                    <h3>Grand nettoyage de printemps — Choisy-le-Roi</h3>
-                    <p>Nettoyage approfondi d'une maison individuelle de 140 m² : lessivage des murs, nettoyage des fenêtres intérieur/extérieur, décapage et protection des parquets.</p>
-                </div>
-            </article>
-
-            <!-- Carte 11 -->
-            <article class="realisation-card">
-                <img
-                    src="../assets/images/canape.png"
-                    alt="Salon nettoyé après chantier — L'Haÿ-les-Roses"
-                    width="600"
-                    height="400"
-                    loading="lazy"
-                >
-                <div class="realisation-card-body">
-                    <h3>Nettoyage fin de chantier — L'Haÿ-les-Roses</h3>
-                    <p>Nettoyage après travaux d'un appartement neuf de 65 m² : élimination des résidus de plâtre et de peinture, nettoyage des menuiseries et des vitres, remise en brillant des sols.</p>
-                </div>
-            </article>
-
             <!-- Carte 12 -->
             <article class="realisation-card">
                 <div class="video-wrapper">
@@ -392,6 +247,108 @@ include '../includes/nav.php';
                 </div>
             </article>
 
+            <!-- Carte 22 -->
+            <!-- <article class="realisation-card">
+                <div class="video-wrapper">
+                    <video autoplay muted playsinline>
+                        <source src="../assets/videos/chantier.mp4" type="video/mp4">
+                        Votre navigateur ne supporte pas la lecture de vidéos.
+                    </video>
+                    <div class="video-controls">
+                        <button class="video-btn video-btn--mute" aria-label="Activer le son"></button>
+                        <button class="video-btn video-btn--replay" aria-label="Rejouer">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true">
+                                <path d="M12 5V1L7 6l5 5V7c3.31 0 6 2.69 6 6s-2.69 6-6 6-6-2.69-6-6H4c0 4.42 3.58 8 8 8s8-3.58 8-8-3.58-8-8-8z"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+                <div class="realisation-card-body">
+                    <h3>Carte 22 Chantier électricité — Lieu XXX</h3>
+                    <p>Chantier électricité.</p>
+                </div>
+            </article> -->
+
+        </div>
+    </div>
+</section>
+
+<!-- ════════════════════════════════════════
+     RÉALISATIONS — IMMEUBLES
+════════════════════════════════════════ -->
+<section class="section section--alt" aria-labelledby="titre-immeubles">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-label">Copropriété</span>
+            <h2 class="section-title" id="titre-immeubles">Immeubles & parties communes</h2>
+            <p class="section-subtitle">
+                Entretien des halls, cages d'escalier, couloirs, sous-sols et parkings pour les syndics
+                et gestionnaires de copropriétés en Île-de-France.
+            </p>
+        </div>
+
+        <div class="realisations-grid">
+
+            <!-- Carte 5 -->
+            <article class="realisation-card">
+                <img
+                    src="../assets/images/entree-immeuble.png"
+                    alt="Hall d'entrée d'immeuble nettoyé — Ivry-sur-Seine"
+                    width="600"
+                    height="400"
+                    loading="lazy"
+                >
+                <div class="realisation-card-body">
+                    <h3>Copropriété — Ivry-sur-Seine</h3>
+                    <p>Nettoyage bihebdomadaire des parties communes d'un immeuble de 48 lots : hall d'entrée, 6 paliers, cage d'escalier et local à vélos.</p>
+                </div>
+            </article>
+
+            <!-- Carte 6 -->
+            <article class="realisation-card">
+                <img
+                    src="../assets/images/parking-autolaveuse.png"
+                    alt="Nettoyage de parking à l'autolaveuse — Rungis"
+                    width="600"
+                    height="400"
+                    loading="lazy"
+                >
+                <div class="realisation-card-body">
+                    <h3>Parking souterrain — Rungis</h3>
+                    <p>Lavage mensuel au karcher et à l'autolaveuse de 3 500 m² de dalle parking sur deux niveaux, incluant le traitement des taches d'huile et la signalisation au sol.</p>
+                </div>
+            </article>
+
+            <!-- Carte 7 -->
+            <article class="realisation-card">
+                <img
+                    src="../assets/images/haussmanien.png"
+                    alt="Immeuble haussmannien entretenu — Paris 15e"
+                    width="600"
+                    height="400"
+                    loading="lazy"
+                >
+                <div class="realisation-card-body">
+                    <h3>Résidence haussmannienne — Paris 15e</h3>
+                    <p>Entretien hebdomadaire des parties communes d'une résidence de 72 appartements : nettoyage des sols en marbre, des vitres de la verrière et des boîtes aux lettres.</p>
+                </div>
+            </article>
+
+            <!-- Carte 8 -->
+            <article class="realisation-card">
+                <img
+                    src="../assets/images/parking.png"
+                    alt="Parking extérieur nettoyé — Orly"
+                    width="600"
+                    height="400"
+                    loading="lazy"
+                >
+                <div class="realisation-card-body">
+                    <h3>Parking extérieur — Orly</h3>
+                    <p>Nettoyage trimestriel et démoussage d'un parking extérieur de 200 places, avec traitement herbicide des joints et remise en état de la peinture de sol.</p>
+                </div>
+            </article>
+
             <!-- Carte 18 -->
             <article class="realisation-card">
                 <div class="video-wrapper">
@@ -480,27 +437,70 @@ include '../includes/nav.php';
                 </div>
             </article>
 
-            <!-- Carte 22 -->
-            <!-- <article class="realisation-card">
-                <div class="video-wrapper">
-                    <video autoplay muted playsinline>
-                        <source src="../assets/videos/chantier.mp4" type="video/mp4">
-                        Votre navigateur ne supporte pas la lecture de vidéos.
-                    </video>
-                    <div class="video-controls">
-                        <button class="video-btn video-btn--mute" aria-label="Activer le son"></button>
-                        <button class="video-btn video-btn--replay" aria-label="Rejouer">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="18" height="18" aria-hidden="true">
-                                <path d="M12 5V1L7 6l5 5V7c3.31 0 6 2.69 6 6s-2.69 6-6 6-6-2.69-6-6H4c0 4.42 3.58 8 8 8s8-3.58 8-8-3.58-8-8-8z"/>
-                            </svg>
-                        </button>
-                    </div>
-                </div>
+        </div>
+    </div>
+</section>
+
+<!-- ════════════════════════════════════════
+     RÉALISATIONS — LOGEMENTS
+════════════════════════════════════════ -->
+<section class="section" aria-labelledby="titre-logements">
+    <div class="container">
+        <div class="section-header">
+            <span class="section-label">Résidentiel</span>
+            <h2 class="section-title" id="titre-logements">Maisons & appartements</h2>
+            <p class="section-subtitle">
+                Nettoyage de fin de chantier, remise en état entre deux locataires ou grand nettoyage
+                ponctuel pour les particuliers et les agences immobilières.
+            </p>
+        </div>
+
+        <div class="realisations-grid">
+
+            <!-- Carte 9 -->
+            <article class="realisation-card">
+                <img
+                    src="../assets/images/appartement.png"
+                    alt="Appartement remis en état entre locataires — Vitry-sur-Seine"
+                    width="600"
+                    height="400"
+                    loading="lazy"
+                >
                 <div class="realisation-card-body">
-                    <h3>Carte 22 Chantier électricité — Lieu XXX</h3>
-                    <p>Chantier électricité.</p>
+                    <h3>État des lieux sortant — Vitry-sur-Seine</h3>
+                    <p>Remise en état complète d'un appartement T4 de 85 m² entre deux locataires : nettoyage four, hotte, sanitaires, joints de carrelage et shampoing des moquettes.</p>
                 </div>
-            </article> -->
+            </article>
+
+            <!-- Carte 10 -->
+            <article class="realisation-card">
+                <img
+                    src="../assets/images/piece.png"
+                    alt="Pièce à vivre après nettoyage professionnel — Choisy-le-Roi"
+                    width="600"
+                    height="400"
+                    loading="lazy"
+                >
+                <div class="realisation-card-body">
+                    <h3>Grand nettoyage de printemps — Choisy-le-Roi</h3>
+                    <p>Nettoyage approfondi d'une maison individuelle de 140 m² : lessivage des murs, nettoyage des fenêtres intérieur/extérieur, décapage et protection des parquets.</p>
+                </div>
+            </article>
+
+            <!-- Carte 11 -->
+            <article class="realisation-card">
+                <img
+                    src="../assets/images/canape.png"
+                    alt="Salon nettoyé après chantier — L'Haÿ-les-Roses"
+                    width="600"
+                    height="400"
+                    loading="lazy"
+                >
+                <div class="realisation-card-body">
+                    <h3>Nettoyage fin de chantier — L'Haÿ-les-Roses</h3>
+                    <p>Nettoyage après travaux d'un appartement neuf de 65 m² : élimination des résidus de plâtre et de peinture, nettoyage des menuiseries et des vitres, remise en brillant des sols.</p>
+                </div>
+            </article>
 
         </div>
     </div>

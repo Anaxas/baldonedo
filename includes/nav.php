@@ -20,7 +20,7 @@ $base = $base ?? '';
                         Services <span class="nav-caret" aria-hidden="true">▾</span>
                     </a>
                     <ul class="nav-dropdown" aria-label="Sous-menu services">
-                        <li><a href="<?= $base ?>pages/services/bureaux.php" class="nav-dropdown-link <?= $page === 'service-bureaux' ? 'active' : '' ?>">🏢 Bureaux</a></li>
+                        <li><a href="<?= $base ?>pages/services/bureaux.php" class="nav-dropdown-link <?= $page === 'service-bureaux' ? 'active' : '' ?>">🏢 Bureaux et Magasins</a></li>
                         <li><a href="<?= $base ?>pages/services/immeuble.php" class="nav-dropdown-link <?= $page === 'service-immeuble' ? 'active' : '' ?>">🏛️ Immeubles</a></li>
                         <li><a href="<?= $base ?>pages/services/maison-appartement.php" class="nav-dropdown-link <?= $page === 'service-maison' ? 'active' : '' ?>">🏠 Maison &amp; Appartement</a></li>
                     </ul>
